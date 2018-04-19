@@ -6,11 +6,11 @@ This is my own implementation of the state management library [Redux](https://gi
 
 __NPM:__
 ```sh
-npm install @redux -S
+npm install @chidumennamdi/redux -S
 ```
 __Yarn:__
 ```sh
-yarn add @redux
+yarn add @@chidumennamdi/redux
 ```
 
 ## Usage
