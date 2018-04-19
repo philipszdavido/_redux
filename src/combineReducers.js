@@ -24,7 +24,7 @@ export function combineReducers(reducers) {
         let finalReducersKeys = Object.keys(finalReducers)
         for (var index = 0; index < finalReducersKeys.length; index++) {
             let reducer = finalReducers[finalReducersKeys[index]]
-            let nextState = reducer(, action)
+            let nextState = reducer(state, action)
         }
     }
 }

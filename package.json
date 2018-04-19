@@ -1,9 +1,10 @@
 {
-    "name": "@redux",
+    "name": "redux",
     "version": "0.0.1",
     "description": "",
     "main": "index.js",
     "scripts": {
+        "build": "rollup -c -o dist/redux.js",
         "test": "echo \"Error: no test specified\" && exit 1"
     },
     "repository": {
@@ -16,5 +17,8 @@
     "bugs": {
         "url": "https://github.com/philipszdavido/_redux/issues"
     },
-    "homepage": "https://github.com/philipszdavido/_redux#readme"
+    "homepage": "https://github.com/philipszdavido/_redux#readme",
+    "dependencies": {
+        "rollup": "^0.58.1"
+    }
 }
