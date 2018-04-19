@@ -4,12 +4,13 @@ This is my own implementation of the state management library [Redux](https://gi
 
 ## Installation
 
+__NPM:__
 ```sh
-npm install ...
+npm install @redux -S
 ```
-
+__Yarn:__
 ```sh
-yarn add ...
+yarn add @redux
 ```
 
 ## Usage
