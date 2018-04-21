@@ -1,6 +1,6 @@
 # redux
 
-This is my own implementation of the state management library [Redux](https://github.com/gaeron/redux).
+This is my own implementation of the state management library [Redux](https://github.com/gaearon/redux).
 
 ## Installation
 
@@ -10,8 +10,12 @@ npm install @chidumennamdi/redux -S
 ```
 __Yarn:__
 ```sh
-yarn add @@chidumennamdi/redux
+yarn add @chidumennamdi/redux
 ```
+
+## API
+* createStore
+* combineReducers
 
 ## Usage
 
