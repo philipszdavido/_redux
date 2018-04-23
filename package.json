@@ -1,24 +1,38 @@
 {
-    "name": "@chidumennamdi/redux",
-    "version": "0.0.1",
-    "description": "",
-    "main": "index.js",
-    "scripts": {
-        "build": "rollup -c -o dist/redux.js",
-        "test": "echo \"Error: no test specified\" && exit 1"
-    },
-    "repository": {
-        "type": "git",
-        "url": "git+https://github.com/philipszdavido/_redux.git"
-    },
-    "keywords": [],
-    "author": "Chidume Nnamdi <kurtwanger40@gmail.com>",
-    "license": "ISC",
-    "bugs": {
-        "url": "https://github.com/philipszdavido/_redux/issues"
-    },
-    "homepage": "https://github.com/philipszdavido/_redux#readme",
-    "dependencies": {
-        "rollup": "^0.58.1"
+  "name": "@chidumennamdi/redux",
+  "version": "0.0.1",
+  "description": "",
+  "main": "dist/redux.js",
+  "scripts": {
+    "build": "rollup -c -o dist/redux.js",
+    "test": "cross-env BABEL_ENV=commonjs jest --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/philipszdavido/_redux.git"
+  },
+  "keywords": [],
+  "author": "Chidume Nnamdi <kurtwanger40@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/philipszdavido/_redux/issues"
+  },
+  "homepage": "https://github.com/philipszdavido/_redux#readme",
+  "dependencies": {
+    "rollup": "^0.58.1"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-jest": "^22.4.3",
+    "babel-preset-env": "^1.6.1",
+    "cross-env": "^5.1.4",
+    "jest": "^22.4.3"
+  },
+  "jest": {
+    "testRegex": "(/test/.*\\.spec.js)$",
+    "transform": {
+      "(/test/.*\\.spec.js)$": "babel-jest",
+      "^.+\\.jsx?$": "babel-jest"
     }
+  }
 }

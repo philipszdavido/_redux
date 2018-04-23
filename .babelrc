@@ -1,0 +1,25 @@
+{
+    "presets": [
+        [
+            "env",
+            {
+                "modules": false,
+                "targets": {
+
+                }
+            }
+        ]
+    ],
+    "env": {
+        "commonjs": {
+            "presets": [
+                [
+                    "env",
+                    {
+                        "loose": true
+                    }
+                ]
+            ]
+        }
+    }
+}
